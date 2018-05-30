@@ -387,7 +387,6 @@ GameObject:
   - component: {fileID: 995759898}
   - component: {fileID: 995759897}
   - component: {fileID: 995759896}
-  - component: {fileID: 995759899}
   m_Layer: 5
   m_Name: FaseAlpha02
   m_TagString: Untagged
@@ -454,7 +453,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 808913148}
-        m_MethodName: Fase
+        m_MethodName: FaseAlpha
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -499,17 +498,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 995759894}
---- !u!114 &995759899
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 995759894}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 049ddf18c45a1ac4b82b70d4e197181b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1108469257
 GameObject:
   m_ObjectHideFlags: 0
@@ -667,7 +655,6 @@ GameObject:
   - component: {fileID: 1426335504}
   - component: {fileID: 1426335507}
   - component: {fileID: 1426335506}
-  - component: {fileID: 1426335508}
   - component: {fileID: 1426335505}
   m_Layer: 5
   m_Name: FaseAlpha01
@@ -717,7 +704,7 @@ MonoBehaviour:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_DisabledColor: {r: 0.74509805, g: 0.74509805, b: 0.74509805, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -735,7 +722,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 808913148}
-        m_MethodName: Fase
+        m_MethodName: FaseAlpha
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -780,17 +767,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1426335503}
---- !u!114 &1426335508
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1426335503}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 049ddf18c45a1ac4b82b70d4e197181b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1483151542
 GameObject:
   m_ObjectHideFlags: 0

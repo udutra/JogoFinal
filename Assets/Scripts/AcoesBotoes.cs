@@ -79,7 +79,7 @@ public class AcoesBotoes : MonoBehaviour
         }
     }
 
-    public void Fase(int i)
+    public void FaseAlpha(int i)
     {
         switch (i)
         {
@@ -91,7 +91,7 @@ public class AcoesBotoes : MonoBehaviour
 
             case 2:
                 {
-                    Debug.Log("Inicia a fase 2");
+                    SceneManager.LoadScene("FaseAlpha1");
                     break;
                 }
             default:
